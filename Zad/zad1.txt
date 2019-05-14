@@ -1,0 +1,5 @@
+Napisac skrypt w AWK, który dla poszczególnych wierszy
+wyznaczy najdluzsze slowa, w nich wystepujace.
+Wynikiem maja byc dwie linijki:
+- pierwsza zlozona ze znalezionych slów, a pod tymi
+slowami maja znajdowac sie liczby oznaczajace ich dlugosc.

@@ -1,0 +1,1 @@
+Napisz skrypt awk, który policzy ilość liczb nieujemnych i iliść liczb nieparzystych w każdej kolumnie. Wynik wypisze w dwóch liniach - pierwsza będąca ilością liczb nieujemnych a druga ilością liczb nieparzystych. Należy brać pod uwagę wyłącznie pola będące poprawnymi liczbami.

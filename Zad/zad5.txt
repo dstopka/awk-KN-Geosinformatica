@@ -1,0 +1,1 @@
+Skrypt w AWK liczacy i wyswietlajacy, ile jest liczb dodatnich wiekszych od zera w kazdej kolumnie

@@ -1,0 +1,2 @@
+Napisac skrypt AWK, ktory z wierszy parzystych ma wyswietlic nieparzyste pola. UWAGA: wiersze
+puste nalezy ignorowac, tzn. nie brac ich pod uwage przy okreslaniu parzystosci wierszy niepustych

@@ -1,0 +1,3 @@
+Napisac skrypt w AWK, ktory w wierszach parzystych podmieni parzyste slowa na ciagi podkreslen
+('_'), o tej samej dlugosci, co podmienione slowa. Natomiast w wierszach nieparzystych, zamieni duze
+litery na gwiazdki ('*')

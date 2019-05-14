@@ -1,0 +1,4 @@
+Napisac skrypt AWK, ktory
+a)dla linijek zawierajacych wylacznie liczby parzyste: policzy srednia arytmetyczna z tych liczb oraz
+wyswietli pasujaca linijke zakonczona sekwencja: srednik i wyznaczona srednia,
+b)policzy ilosc opuszczonych linijek i wyswietli te liczbe na zakonczenie dzialania
