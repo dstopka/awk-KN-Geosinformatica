@@ -1,0 +1,25 @@
+#!/usr/bin/awk -f
+
+BEGIN { 
+	max=0 
+}
+
+{ 
+	if(max<NF) max=NF
+  	for(i=1;i<=NF;i++) {
+		tab[i,NR]=$i
+  	}
+}
+
+END { 
+	for(i=1;i<=max;i++) {
+		n=0
+		for(j=1;j<=NR;j++) {
+			#if(tab[i,j] ~ /^[0-9]*$/) {
+				if(tab[i,j]>0) n++
+			#}
+		}
+		print "Kolumna " i " ma " n " liczb spelniajacych warunek"
+	}
+}
+			

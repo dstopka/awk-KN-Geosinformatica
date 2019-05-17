@@ -1,0 +1,29 @@
+#!/usr/bin/awk -f
+
+BEGIN {
+	max=0}
+
+{ 
+	if(max<NF) max=NF
+  	for(i=1;i<=NF;i++)
+		tab[i,NR]=$i
+}
+
+END { 
+	nieuj=""
+	nieparz=""
+	for(i=1;i<=max;i++) {
+		nuj=0
+		nparz=0
+		for(j=1; j<=NR; j++) {
+			if(tab[i,j] ~ /^-?[0-9]+$/) {
+				if(tab[i,j]>=0) nuj++
+				if(tab[i,j]%2==1) nparz++
+			}
+		}
+		nieuj=nieuj nuj "\t"
+		nieparz=nieparz nparz "\t"
+	}
+	print nieuj
+	print nieparz
+}

@@ -1,4 +1,3 @@
 Napisz skrypt w AWK, ktory dla kazdego pola wyznacza klucz, bedacy ostatnimi trzema cyframi.
 (Mozna przyjac zalozenie, ze kazde pole jest liczba calkowita.) Nastepnie, dla kazdego klucza
-wyznaczy krotnosc oraz czestotliwosc jego wystepowania. Wynik wyswietli, podajac klucze w
-kolejnosci wzrastajacych wartosci liczbowych.
+wyznaczy krotnosc oraz czestotliwosc jego wystepowania. Wyswietli 15 najcześciej wystepujacych kluczy (krotnosc),  podajac klucze w kolejnosci wzrastajacych wartosci liczbowych.

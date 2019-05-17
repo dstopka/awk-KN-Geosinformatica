@@ -1,0 +1,28 @@
+#!/usr/bin/awk -f
+
+BEGIN { 
+	notCounted=0
+}
+
+{
+	onlyEven=1
+	sum=0
+	sr=0
+       	for(i=1;i<=NF;i++) {
+		if(($i%2)==1) onlyEven=0
+	}	
+	if(onlyEven) {
+		for(i=1;i<=NF;i++) {
+			sum+=$i
+		}
+		sr=sum/NF
+		print $0" ;"sr
+	} 
+	else {
+		notCounted++ 
+	}
+}
+
+END {
+	print "Linie opuszczone:" notCounted
+}

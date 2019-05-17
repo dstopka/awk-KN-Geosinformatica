@@ -1,0 +1,24 @@
+#!/usr/bin/awk -f
+
+BEGIN {
+	words=""
+	len=""
+}
+
+{ 	
+	maxln=""
+	maxw=""
+	for(i=1;i<=NF;i++) {
+		if(maxln<length($i)) {
+			maxw=$i
+			maxln=length($i)
+		}
+	}
+	words=words maxw " "
+	len=len maxln " "
+}
+
+END {
+	print words
+	print len
+}
